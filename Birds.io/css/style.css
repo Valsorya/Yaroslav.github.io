@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: dodgerblue;
+}
+div{
+    border: 1px black;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+    border-bottom: 10px black;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: skyblue;
+}
+.header-cap {
+    font-family: 'Cute Font', cursive;
+    font-family: 'Dokdo', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 75px;
+    font-weight: 700;
+}
+.header-cont {
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: deepskyblue;
+    
+    width: 95%;
+    margin: 30px auto 0px auto;
+    border-radius: 25px;
+}
+.list-el{
+    background-color: deepskyblue;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 0px 75px;
+    
+}
+.img-zone {
+    background: url('../img/head1.png');
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 75px;
+    background-size: 100%;
+}
+.cont-img1{
+    display: inline-block;
+    background: url('../img/image1.jpg');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+.cont-img2{
+    display: inline-block;
+    background: url('../img/image2.jpg');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+.cont-img3{
+    display: inline-block;
+    background: url('../img/image3.jpg');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+.cont-img4{
+    display: inline-block;
+    background: url('../img/image4.jpg');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+.block-1{
+     width: 64%; 
+     background-color: aqua;
+    
+    width: 95%;
+    margin: 0px auto 0px auto;
+    border-radius: 25px;
+} 
+.block-2{
+    width: 30%;
+    background-color: aqua;
+    
+    width: 95%;
+    margin: 0px auto 0px auto;
+    border-radius: 25px;
+}
+.block-2-2 img{
+    border: 2px black solid;
+    width: 42%;
+    margin: 10px;
+}
+.footer{
+    
+    background-color:blue; 
+    color: white;
+    width: 95%;
+    margin: 30px auto 0px auto;
+    border-radius: 25px;
+}
